@@ -1,10 +1,27 @@
 <RCC>
     <qresource prefix="/">
         <file>../img/img/1.jpg</file>
-        <file>../img/img/_a.png</file>
         <file>../img/img/burstballoon.png</file>
         <file>../img/img/dancer/dancer_2a5.png</file>
         <file>../img/img/dancer/dancer_2n8.png</file>
-        <file>../img/img/bg.png</file>
+        <file>../img/img/start.png</file>
+        <file>../img/img/stop.png</file>
+        <file>../img/img/letitgo.mp3</file>
+        <file>../img/img/headshot2.mp3</file>
+        <file>../img/img/bgg.mp3</file>
+        <file>../img/img/headshot.png</file>
+        <file>../img/poke/bg.jpg</file>
+        <file>../img/poke/point.png</file>
+        <file>../img/poke/pokeball.png</file>
+        <file>../img/poke/get2.mp3</file>
+        <file>../img/poke/openball.png</file>
+        <file>../img/poke/bg5.jpg</file>
+        <file>../img/poke/a.png</file>
+        <file>../img/poke/b.png</file>
+        <file>../img/img/kilo.png</file>
+        <file>../img/poke/bgm.mp3</file>
+        <file>../img/img/pause.png</file>
+        <file>../img/img/field.jpg</file>
+        <file>../img/img/point.png</file>
     </qresource>
 </RCC>

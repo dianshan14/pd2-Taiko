@@ -189,8 +189,10 @@ Makefile: Taiko.pro ../../QT/5.5/mingw492_32/mkspecs/win32-g++/qmake.conf ../../
 		../../QT/5.5/mingw492_32/mkspecs/features/lex.prf \
 		Taiko.pro \
 		D:/W/qt/QT/5.5/mingw492_32/lib/qtmaind.prl \
+		D:/W/qt/QT/5.5/mingw492_32/lib/Qt5Multimedia.prl \
 		D:/W/qt/QT/5.5/mingw492_32/lib/Qt5Widgets.prl \
 		D:/W/qt/QT/5.5/mingw492_32/lib/Qt5Gui.prl \
+		D:/W/qt/QT/5.5/mingw492_32/lib/Qt5Network.prl \
 		D:/W/qt/QT/5.5/mingw492_32/lib/Qt5Core.prl
 	$(QMAKE) -spec win32-g++ "CONFIG+=debug" -o Makefile Taiko.pro
 ../../QT/5.5/mingw492_32/mkspecs/features/spec_pre.prf:
@@ -323,8 +325,10 @@ Makefile: Taiko.pro ../../QT/5.5/mingw492_32/mkspecs/win32-g++/qmake.conf ../../
 ../../QT/5.5/mingw492_32/mkspecs/features/lex.prf:
 Taiko.pro:
 D:/W/qt/QT/5.5/mingw492_32/lib/qtmaind.prl:
+D:/W/qt/QT/5.5/mingw492_32/lib/Qt5Multimedia.prl:
 D:/W/qt/QT/5.5/mingw492_32/lib/Qt5Widgets.prl:
 D:/W/qt/QT/5.5/mingw492_32/lib/Qt5Gui.prl:
+D:/W/qt/QT/5.5/mingw492_32/lib/Qt5Network.prl:
 D:/W/qt/QT/5.5/mingw492_32/lib/Qt5Core.prl:
 qmake: FORCE
 	@$(QMAKE) -spec win32-g++ "CONFIG+=debug" -o Makefile Taiko.pro

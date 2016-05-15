@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 //    w.setGeometry(wid.screen()->width()/2 - (screenW/2) , wid.screen()->height()/2 - (screenH/2) , screenW , screenH); //設定視窗
     // ================= Setting Windows Title and Icon =================
     w.setWindowTitle("Taiko~");
-    w.setWindowIcon(QIcon("../img/img/mtaikoflash_red.png"));
+    w.setWindowIcon(QIcon("../img/img/kilo.png"));
     w.setFixedHeight(900);
     w.setFixedWidth(1200);
     w.show();

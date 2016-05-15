@@ -1,0 +1,6 @@
+加SLOT
+加pushbutton
+改SLOT 
+>找大圖 小圖 音效
+
+做最後小畫面的案件 在delete 不然會錯

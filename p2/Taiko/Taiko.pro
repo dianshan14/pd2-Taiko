@@ -4,7 +4,8 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui \
+         multimedia
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -13,11 +14,9 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp \
-    taiko.cpp
+        mainwindow.cpp
 
-HEADERS  += mainwindow.h \
-    taiko.h
+HEADERS  += mainwindow.h
 
 FORMS    += mainwindow.ui
 
